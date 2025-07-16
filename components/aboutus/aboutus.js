@@ -2,10 +2,10 @@ export default function AboutUs() {
     return (
         <div id="about">
             <h1 className="text-5xl font-bold underline underline-offset-8 mb-6 text-zinc-50 text-center mt-10">About Us</h1>
-            <p className="max-w-3xl mx-auto text-2xl text-zinc-50 text-center mt-10">
+            <p className="max-w-3xl mx-auto text-2xl text-zinc-50 text-center mt-10 px-5">
                 <span className="">Xenware Studios</span>, founded by Ethan Ho @xendatro and Roman D. @HustleOnPoint, is behind several front-page ROBLOX experiences with over <span className="text-green-400 font-semibold">50 million plays</span>. We specialize in crafting immersive, high-quality games that challenge and captivate players around the world.
             </p>
-            <div className="flex flex-col items-center md:flex-row md:items-stretch justify-center space-y-4 md:space-y-0 md:space-x-4 w-4/5 mx-auto mt-10">
+            <div className="flex flex-col items-center lg:flex-row lg:items-stretch justify-center space-y-4 lg:space-y-0 lg:space-x-4 w-4/5 mx-auto mt-10">
 
                 <div className="w-96 bg-zinc-900 shadow-lg shadow-zinc-50/10 rounded-2xl overflow-hidden">
                     <img src="era.webp" alt="" className="w-full h-auto" />
