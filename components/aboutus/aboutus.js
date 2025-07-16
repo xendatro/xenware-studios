@@ -5,7 +5,8 @@ export default function AboutUs() {
             <p className="max-w-3xl mx-auto text-2xl text-zinc-50 text-center mt-10">
                 <span className="">Xenware Studios</span>, founded by Ethan Ho @xendatro and Roman D. @HustleOnPoint, is behind several front-page ROBLOX experiences with over <span className="text-green-400 font-semibold">50 million plays</span>. We specialize in crafting immersive, high-quality games that challenge and captivate players around the world.
             </p>
-            <div className="flex flex-col items-center md:flex-row md:items-stretch  justify-center md:space-x-4 space-y-4 w-4/5 mx-auto mt-10">
+            <div className="flex flex-col items-center md:flex-row md:items-stretch justify-center space-y-4 md:space-y-0 md:space-x-4 w-4/5 mx-auto mt-10">
+
                 <div className="w-96 bg-zinc-900 shadow-lg shadow-zinc-50/10 rounded-2xl overflow-hidden">
                     <img src="era.webp" alt="" className="w-full h-auto" />
                     <div className="p-4 text-white">
@@ -41,6 +42,7 @@ export default function AboutUs() {
                         <p className="text-sm">Puzzle Doors is a stage-based puzzle game where you solve logic, pattern, and math challenges to unlock the next door.</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     )
